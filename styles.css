@@ -1,0 +1,35 @@
+body{
+    margin:0;
+}
+.contenedor-flexible
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap:wrap-reverse;
+}
+.uno, .cinco{
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    color: white;
+}
+.dos, .seis{
+    background-color: orange;
+    width: 150px;
+    height: 150px;
+    color: white;
+}
+.tres, .siete{
+    background-color: violet;
+    width: 150px;
+    height: 250px;
+    color: white;
+}
+.cuatro{
+    background-color: blue;
+    width: 150px;
+    height: 200px;
+    color: white;
+}
